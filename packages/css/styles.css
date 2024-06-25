@@ -466,6 +466,9 @@ img {
   font-size: 2rem;
   color: var(--first-color);
 }
+.uil-angle-right{
+  color: var(--first-color);
+  }
 
 .skills__icon {
   margin-right: var(--mb-0-75);
@@ -618,7 +621,7 @@ img {
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 0;
 }
 
 .qualification__calendar {
@@ -1010,7 +1013,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: #fff;
   margin-top: var(--mb-3);
 }
 
