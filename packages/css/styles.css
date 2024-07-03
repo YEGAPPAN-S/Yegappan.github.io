@@ -162,6 +162,11 @@ img {
   text-align: center;
 }
 
+    .qualification__sections_exp {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
 /*==================== LAYOUT ====================*/
 
 .container {
@@ -417,7 +422,7 @@ img {
 }
 
 .about__description {
-  text-align: center;
+  text-align: left;
   margin-bottom: var(--mb-2-5);
 }
 
