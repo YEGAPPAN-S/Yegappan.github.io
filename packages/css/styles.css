@@ -672,7 +672,7 @@ img {
 .services__content {
   position: relative;
   background-color: var(--container-color);
-  padding:2rem 2.5rem;
+  padding:2rem;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
@@ -828,7 +828,7 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  padding-top: 0rem;
     padding-bottom: 3rem;
 }
 
@@ -1291,7 +1291,7 @@ img {
       font-size: 2rem;
     }
     .services__content {
-      padding: 2rem 2.5rem;
+      padding: 2rem;
     }
 
     .services__modal-content {
@@ -1304,7 +1304,7 @@ img {
       align-items: center;
     }
     .project {
-      text-align: initial;
+      text-align: center;
     }
     .project__bg {
       background: none;
@@ -1388,3 +1388,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+    .button:hover .project__icon , .button:hover  .uil-arrow-right,  .button:hover .uil-message{
+        transform: translate(3px, 0);
+    }
+    .about__buttons:hover .button__icon {
+        transform: translate(0, 3px);
+    }
